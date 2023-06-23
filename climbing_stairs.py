@@ -1,3 +1,5 @@
+import math
+
 class Solution:
     def climbStairs(self, n: int) -> int:
         # TODO
