@@ -40,7 +40,8 @@ class TestClimbingStairs(unittest.TestCase):
         self.assertEqual(climbing_stairs.Solution().climbStairs(34), 9227465)
         self.assertEqual(climbing_stairs.Solution().climbStairs(35), 14930352)
         # WARNING: This will take too long
-        """ self.assertEqual(climbing_stairs.Solution().climbStairs(36), 24157817)
+        """ 
+        self.assertEqual(climbing_stairs.Solution().climbStairs(36), 24157817)
         self.assertEqual(climbing_stairs.Solution().climbStairs(37), 39088169)
         self.assertEqual(climbing_stairs.Solution().climbStairs(38), 63245986)
         self.assertEqual(climbing_stairs.Solution().climbStairs(39), 102334155)
@@ -49,7 +50,8 @@ class TestClimbingStairs(unittest.TestCase):
         self.assertEqual(climbing_stairs.Solution().climbStairs(42), 433494437)
         self.assertEqual(climbing_stairs.Solution().climbStairs(43), 701408733)
         self.assertEqual(climbing_stairs.Solution().climbStairs(44), 1134903170)
-        self.assertEqual(climbing_stairs.Solution().climbStairs(45), 1836311903) """
+        self.assertEqual(climbing_stairs.Solution().climbStairs(45), 1836311903) 
+        """
 
 if __name__ == "__main__":
     unittest.main()
